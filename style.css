@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+    background: linear-gradient(black, #2d3436);
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 150px;
+    width: 300px;
+    height: 150px;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grupoum{
+    width: 90%;
+    margin-bottom: 1%;
+    justify-content: center;
+    align-items: center;
+}
+#galeriaum{
+    display: flex;
+    flex-direction: row;
+}
+.capa {
+    background-color: #2d3436;
+    position: relative;
+    width: 190px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    transition: all .2s ease;
+    border: none;
+} 
+.capa:hover {
+    border: 1px solid #d63031;
+    transform: scale(1.03);
+}
+.capa img {
+    width: 100%;
+    height: auto;
+}
+
